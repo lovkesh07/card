@@ -117,7 +117,13 @@
     height: 100px;
     opacity: 1;
 }
-
+.container45 .box45:hover span::before{
+    top: -50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
 
 .container45 .box45 span::after{
     content: '';
@@ -144,6 +150,7 @@
 }
 
 
+
 @keyframes animate{
     0% ,100%{
         transform: translateY(10px);
@@ -164,6 +171,7 @@
     z-index: 1;
     transform: 0.5s;
     color: #fff;
+    
 }
 .container45 .box45:hover .content45{
     left: -25px;
@@ -189,4 +197,6 @@
     text-decoration: none;
     font-weight: 700;
     margin-top: 0px;
+    box-shadow: 0 5px 15px rgba(0,0,0,3.2);
+    
 }
